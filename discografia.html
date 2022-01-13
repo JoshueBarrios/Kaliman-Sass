@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Galeria</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/8a815a169a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header id="menu">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="imagenes/logo-rawayana.png"
+            class="logo"
+            alt="logo"
+            width="500"
+            height="500"
+        /></a>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
+        <li><a href="./videos.html">Videos</a></li>
+        <li><a href="./discografia.html">Discos</a></li>
+        <li><a href="#">Contactos</a></li>
+      </nav>
+    </header>
+    <div class="galeria">
+      <h1></h1>
+      <div class="linea"></div>
+      <div class="contenedor-imagenes">
+        <div class="imagen">
+          <img src="./imagenes/ultimodisco.jpg" alt="" />
+          <div class="overlay">
+            <h2>Cuando los acefalos predominan</h2>
+          </div>
+        </div>
+        <div class="imagen">
+          <img src="./imagenes/trippy.jpg" alt="" />
+          <div class="overlay">
+            <h2>Trippycaribbean</h2>
+          </div>
+        </div>
+        <div class="imagen">
+          <img src="./imagenes/rawayana_rawayanaland.jpg" alt="" />
+          <div class="overlay">
+            <h2>Rawayanaland</h2>
+          </div>
+        </div>
+        <div class="imagen">
+          <img src="./imagenes/licenciarawa.jpg" alt="" />
+          <div class="overlay">
+            <h2>Licencia para ser libre</h2>
+          </div>
+        </div>
+        
+        </div>
+        <!-- <div class="imagen">
+                <img src="img/1 (2).jpg" alt="">
+            </div> -->
+      </div>
+    </div>
+    <footer>
+      <p class="footer-content">
+        Joshue Barrios ™ &copy;Todos los derechos reservados 2022
+      </p>
+      <ul class="redes">
+        <li><i class="fab fa-facebook"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-spotify"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-deezer"></i></li>
+      </ul>
+    </footer>
+    <script>
+      const menu = document.getElementById("menu");
+      window.onscroll = function () {
+        if (window.pageYOffset > 10) {
+          menu.style.backgroundColor = "#fff";
+        } else {
+          menu.style.backgroundColor = "initial";
+        }
+      };
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

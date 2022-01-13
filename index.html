@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAWAYANALAND</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/8a815a169a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header id="menu">
+      <nav>
+        <a href="#"
+          ><img class="logo" src="./imagenes/logo-rawayana.png" alt="logo"
+        /></a>
+
+        <ul class="enlaces-menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="./galeria.html">Galeria</a></li>
+          <li><a href="./discografia.html">Discos</a></li>
+          <li><a href="./videos.html">Videos</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+
+        <button class="ham" type="">
+          <span class="br-1"></span>
+          <span class="br-2"></span>
+          <span class="br-3"></span>
+        </button>
+      </nav>
+    </header>
+
+    <section class="presentacion">
+      <div class="flex-item1">
+        <h1>Su ultimo disco está basado en:</h1>
+        <b>
+          “Gobiernos, corporaciones, héroes, anti-héroes, ideales políticos,
+          filosofías, religiones y conceptos culturales son cuestionados
+          constantemente gracias a este extraño momento en donde desconocemos
+          qué información es falsa o verdadera”, afirma Rawayana en el
+          manifiesto que acompaña la salida del disco. En su cuarto trabajo
+          discográfico, el colectivo artístico venezolano nominado al Latin
+          Grammy se muestra aún más ambicioso, maduro, consciente del entorno
+          que los rodea y abierto a la colaboración con otras figuras de la
+          música latinoamericana, incluyendo en esta ocasión a Fer Casillas, Los
+          Amigos Invisibles, Akapellah, Cheo Pardo, Tal Cohen y Joel Martínez.
+        </b>
+        <button class="btn-principal" type="submit">
+          “Cuando los acéfalos predominan”
+        </button>
+      </div>
+    </section>
+
+    <div class="wrapper">
+      <section class="servicios">
+        <div class="titulo-servicios">
+          <h2 class="name item">Hecho en Venezuela</h2>
+          <h3 class="paragraph item">En el norte del sur</h3>
+          <p class="parrafo">
+            Rawayana es una banda venezolana de rock/reggae formada en 2007 en
+            Caracas. Está integrada por Alberto Beto Montenegro, Antonio Tony
+            Casas, Andrés Story y Alejandro Abeijón. Es reconocida por su mezcla
+            de reggae y ska. Se dieron a conocer en Venezuela después de su
+            participación en el Festival Nuevas Bandas de 2010. La publicación
+            de su álbum Licencia para ser libre y sus sencillos «Fuego azul» y
+            «Algo distinto» los hizo popularizarse a nivel nacional.
+          </p>
+        </div>
+        <div class="tipo-servicios">
+          <div>
+            <i class="fas fa-microphone"></i>
+            <h3>Alberto</h3>
+          </div>
+          <div>
+            <i class="fas fa-guitar"></i>
+            <h3>Antonio</h3>
+          </div>
+          <div>
+            <i class="fas fa-guitar"></i>
+            <h3>Alejandro</h3>
+          </div>
+          <div>
+            <i class="fas fa-drum"></i>
+            <h3>Andrés</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p class="footer-content">
+        Joshue Barrios ™ &copy;Todos los derechos reservados 2022
+      </p>
+      <ul class="redes">
+        <li><i class="fab fa-facebook"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-spotify"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-deezer"></i></li>
+      </ul>
+    </footer>
+    <script>
+      const menu = document.getElementById("menu");
+      window.onscroll = function () {
+        if (window.pageYOffset > 10) {
+          menu.style.backgroundColor = "#fff";
+        } else {
+          menu.style.backgroundColor = "initial";
+        }
+      };
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
